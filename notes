@@ -1,0 +1,21 @@
+q! to revert
+
+create an account with weather api
+
+UV index, you will need to supply the coordinates from
+
+store cities searched to local storage
+
+three APIs needed:
+weather
+forecast
+UVI
+
+- http://api.openweathermap.org/data/2.5/weather
+- http://api.openweathermap.org/data/2.5/forecast
+- http://api.openweathermap.org/data/2.5/uvi
+
+c3da05bca4528c3489ab056a709792c2
+
+
+Well before 1:13:00 how to bring up the info within info

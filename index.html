@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="assets/css/reset.css">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+  <script src="https://kit.fontawesome.com/9eb3926f16.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="assets/css/style.css">
+  <title>Eric's Weather Forecast</title>
+</head>
+<body>
+    <nav class="navbar navbar-dark bg-dark justify-content-center">
+        Eric's Weather Dashboard - Where our guess is slightly better than yours!
+    </nav>
+  <main class="container">
+    <div class="row">
+      <div class="col-3">
+        <form>
+          <div class="form-row">
+              <label class="col-12" for="city"><strong>Search for a City:</strong></label>
+              <input class="col-8 form-control form-control-sm" type="text">
+              <button class="btn btn-primary col-2 form-control form-control-sm magGlass"><i class="fas fa-search"></i></button>
+              <div class="col-2"></div>
+          </div>
+        </form>
+        <ul id="searchedCities"></ul>
+      </div>
+      <div class="col-9">
+        <div class="container">
+          <div id="currentCity">
+            <h4 id="cityName">Atlanta <span id="currentDate">(1/24/2020)</span><span id="weather"></span></h4>
+            <p>Temperature: <span id="temp"></span></p>
+            <p>Humidity: <span id="humid"></span></p>
+            <p>Wind Speed: <span id="wind"></span></p>
+            <p>UV Index: <span id="uv"></span></p>
+          </div>
+          <div id="forecast">
+            <h5>5-Day Forecast:</h5>
+            <div class="card" id="card1">
+              <div class="card-body">
+                <h6 class="card-date">1/25/2020</h6>
+                <!-- need weather icon here -->
+                <p class="card-text">Temp: 9000 F</p>
+                <p class="card-text">Humidity: 1000%</p>
+              </div>
+            </div>
+            <div class="card" id="card2">
+              <div class="card-body">
+                <h6 class="card-date">1/25/2020</h6>
+                <!-- need weather icon here -->
+                <p class="card-text">Temp: 9000 F</p>
+                <p class="card-text">Humidity: 1000%</p>
+              </div>
+            </div>
+            <div class="card" id="card3">
+              <div class="card-body">
+                <h6 class="card-date">1/25/2020</h6>
+                <!-- need weather icon here -->
+                <p class="card-text">Temp: 9000 F</p>
+                <p class="card-text">Humidity: 1000%</p>
+              </div>
+            </div>
+            <div class="card" id="card4">
+              <div class="card-body">
+                <h6 class="card-date">1/25/2020</h6>
+                <!-- need weather icon here -->
+                <p class="card-text">Temp: 9000 F</p>
+                <p class="card-text">Humidity: 1000%</p>
+              </div>
+            </div>
+            <div class="card" id="card5">
+              <div class="card-body">
+                <h6 class="card-date">1/25/2020</h6>
+                <!-- need weather icon here -->
+                <p class="card-text">Temp: 9000 F</p>
+                <p class="card-text">Humidity: 1000%</p>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </main>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,42 @@
+nav {
+  color: white;
+  font-size: 25px;
+}
+
+label {
+  margin-bottom: 0;
+}
+
+#currentCity {
+  border-top: solid #e3e3e3 1px;
+  border-left: solid #e3e3e3 1px;
+  border-bottom: solid #e3e3e3 1px;
+  margin-top: 10px;
+  border-top-left-radius: 3px;
+  border-bottom-left-radius: 3px;
+  padding: 20px 0 20px 15px;
+}
+
+#currentCity {
+  font-weight: 400;
+}
+
+#card1 {
+  margin-left: 0;
+}
+
+.magGlass {
+  padding: 0;
+  font-size: .875rem;
+}
+
+.card {
+  width: 18%;
+  float: left;
+  margin-left: 2.5%;
+  background: #007bff;
+}
+
+.card-text {
+  font-size: 15px;
+}

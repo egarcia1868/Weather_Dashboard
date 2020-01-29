@@ -1,8 +1,4 @@
 var searchedCitiesAr = [];
-var query;
-$(".prevCity").click(function() {getThatWeather})
-
-
 $("#city").submit(function(event){
   event.preventDefault();
   var match = false;
@@ -20,20 +16,22 @@ $("#city").submit(function(event){
       $("#searchedCities").prepend(recSearchedCity);
       searchedCitiesAr.push($("#cityName").val().trim());
   };
-  this.getThatWeather();
+  getThatWeather($("#cityName"));
 });
 
+$(document).on("click", ".prevCity", function() {getThatWeather(event.target)});
 
-  var getThatWeather = function() {
-    if (this.hasClass("prevCity")) {
-      query = $(this.html())
-    } else {
-      query = $("#cityName").val().trim();
-    };
-    var queryURL = `https://api.openweathermap.org/data/2.5/weather?units=imperial&q=${query}&appid=c3da05bca4528c3489ab056a709792c2`;
-    var uv;
-    var uvClass;
-
+  var getThatWeather = function(toSearch) {
+  console.log(toSearch);
+  var query;
+  if ($(toSearch).hasClass("prevCity") === true) {
+    query = toSearch.getAttribute("data-name");
+  } else {
+    query = $(toSearch).val().trim();
+  };
+  var queryURL = `https://api.openweathermap.org/data/2.5/weather?units=imperial&q=${query}&appid=c3da05bca4528c3489ab056a709792c2`;
+  var uv;
+  var uvClass;
   $.ajax({
     url: queryURL,
     method: "GET"
@@ -81,4 +79,4 @@ $("#city").submit(function(event){
       }
     })
   })
-}
+};

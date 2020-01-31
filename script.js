@@ -52,14 +52,19 @@ $(document).on("click", ".prevCity", function() {getThatWeather(event.target)});
     }).then(function(uvResponse) {
       uv = uvResponse.value;
       if (uv < 3) {
+        $("#uv").removeClass();
         $("#uv").addClass("uvLow")
       } else if (uv < 6) {
+        $("#uv").removeClass();
         $("#uv").addClass("uvModerate")
       } else if (uv < 8) {
+        $("#uv").removeClass();
         $("#uv").addClass("uvHigh")
       } else if (uv < 11) {
+        $("#uv").removeClass();
         $("#uv").addClass("uvVeryHigh")
       } else {
+        $("#uv").removeClass();
         $("#uv").addClass("uvExtreme")
       };
       $("#uv").text(uv);

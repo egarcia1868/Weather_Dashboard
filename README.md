@@ -19,6 +19,7 @@ This is how the app appears when searching for the weather in Phoenix after alre
 * [Visual Studio Code](https://code.visualstudio.com/) - code editor used
 * [Bootstrap](https://getbootstrap.com/) - framework used to create my pages
 * [Moment.js](https://momentjs.com/) - used to source current time for date display and time comparators
+* [OpenWeather](https://openweathermap.org/api) - used for all my accurate weather info.
 
 ## Authors
 

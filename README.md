@@ -4,19 +4,20 @@ A simple scheduler for your current work day to organize your day's events and t
 
 ## Getting Started
 
-Simply go to https://egarcia1868.github.io/Work_Day_Scheduler/ at the beginning of your work day, enter a task for each hour and click the floppy disk icon and the assignment will be saved to that hour until you delete it.
+Step 1: Figure out a city that you'd like to know the weather of.  
+Step 2: Go to https://egarcia1868.github.io/Weather_Dashboard/, enter that city's name into the "Search for a city" search field, and submit.
+Step 3:  Learn that weather!
 
 ### Screenshot
 
-![Screenshot!](/assets/images/ScreenShot.png?raw=true "Screenshot of how past/current/future hours appear")
-This is how the app appears between 2:00pm and 2:59pm.  You can see the hours past appear grey, the current hour appears red, and the future hours appear green.  You can also see that an entered task shows up in a more noticable, black font.
+![Screenshot!](/assets/images/WeatherScreenShot.png?raw=true "Screenshot of how the weather displays")
+This is how the app appears when searching for the weather in Phoenix after already searching for the weather in San Angelo, Tasmania, Lima, and Cusco.  You can also see the 5 day weather forecast at the bottom.
 
 
 ## Built With
 
 * [Visual Studio Code](https://code.visualstudio.com/) - code editor used
 * [Bootstrap](https://getbootstrap.com/) - framework used to create my pages
-* [Font Awesome](https://fontawesome.com/) - the source for my floppy disk icons
 * [Moment.js](https://momentjs.com/) - used to source current time for date display and time comparators
 
 ## Authors

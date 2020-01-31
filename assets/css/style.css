@@ -45,6 +45,10 @@ li {
   height: 30px;
 }
 
+.hide {
+  display: none;
+}
+
 .card-date {
   font-weight: 400;
 }

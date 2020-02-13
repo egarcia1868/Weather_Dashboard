@@ -10,19 +10,19 @@
   <link rel="stylesheet" href="assets/css/style.css">
   <title>Eric's Weather Forecast</title>
 </head>
-<body>
-    <nav class="navbar navbar-dark bg-dark justify-content-center">
-        Eric's Weather Dashboard - Where our guess is slightly better than yours!
-    </nav>
+<body id="clouds">
+  <nav class="navbar navbar-dark bg-dark justify-content-center">
+    Eric's Weather Dashboard - Where our guess is slightly better than yours!
+  </nav>
   <main class="container">
     <div class="row">
       <div class="col-3">
         <form id="city">
           <div class="form-row">
-              <label class="col-12"><strong>Search for a city:</strong></label>
-              <input id="cityName" class="col-8 form-control form-control-sm" type="text">
-              <button class="btn btn-primary col-2 form-control form-control-sm magGlass"><i class="fas fa-search"></i></button>
-              <div class="col-2"></div>
+            <label class="col-12"><strong>Search for a city:</strong></label>
+            <input id="cityName" class="col-8 form-control form-control-sm" type="text">
+            <button class="btn btn-primary col-2 form-control form-control-sm magGlass"><i class="fas fa-search"></i></button>
+            <div class="col-2"></div>
           </div>
         </form>
         <ul id="searchedCities"></ul>
@@ -90,6 +90,9 @@
     </div>
 
   </main>
+  <footer>
+      <p class="cr">Copyright &copy;</p>
+  </footer>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
   <script src="script.js"></script>

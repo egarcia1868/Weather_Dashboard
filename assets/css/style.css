@@ -19,6 +19,12 @@ li {
   font-weight: 200;
 }
 
+#clouds {
+  background-image: url("../images/WeatherBackground.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
 #city {
   margin-bottom: 10px;
 }
@@ -97,4 +103,21 @@ li {
 
 .card-text {
   font-size: 15px;
+}
+
+footer {
+  height: 20px;
+  background: black;
+  text-align: center;
+  color: #c6ccc6;
+  font-size: 8px;
+  position: fixed;
+  width: 100%;
+  bottom: 0;
+}
+
+.cr {
+  position: absolute;
+  bottom: -12px;
+  left: 48%;
 }

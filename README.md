@@ -1,4 +1,4 @@
-# Work Day Scheduler
+# Weather Dashboard
 
 A simple scheduler for your current work day to organize your day's events and tasks.
 
@@ -11,7 +11,7 @@ Step 3:  Learn that weather!
 ### Screenshot
 
 ![Screenshot!](/assets/images/WeatherScreenShot.png?raw=true "Screenshot of how the weather displays")
-This is how the app appears when searching for the weather in Phoenix after already searching for the weather in San Angelo, Tasmania, Lima, and Cusco.  You can also see the 5 day weather forecast at the bottom.
+This is how the app appears when searching for the weather in Austin.  You can also see the 5 day weather forecast at the bottom.
 
 
 ## Built With

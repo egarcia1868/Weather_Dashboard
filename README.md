@@ -1,11 +1,13 @@
 # Weather Dashboard
 
-A simple scheduler for your current work day to organize your day's events and tasks.
+https://egarcia1868.github.io/Weather_Dashboard/
+
+An an that gets a 5-day weather forecast for whatever city you enter using ajax.
 
 ## Getting Started
 
 Step 1: Figure out a city that you'd like to know the weather of.  
-Step 2: Go to https://egarcia1868.github.io/Weather_Dashboard/, enter that city's name into the "Search for a city" search field, and submit.
+Step 2: Go to the url above, enter that city's name into the "Search for a city" search field, and submit.
 Step 3:  Learn that weather!
 
 ### Screenshot
@@ -27,5 +29,5 @@ This is how the app appears when searching for the weather in Austin.  You can a
 
 ## Acknowledgments
 
-* Big ups to our instructor, Calvin Carter, and our TAs, Mark Alaniz & Amanda Padilla, as well as our Student Success Manager, Sean Fleming
+* Big ups to my mentor, Calvin Carter, for help throughout the production of this and many of my other projects.
 * Tons of help for this was found at w3schools (https://www.w3schools.com/), mozilla (https://developer.mozilla.org/), and various googleables
